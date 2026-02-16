@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funny Sticker Maker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Build Your Funny Sticker</h1>
+        <div class="upload-section">
+            <input type="file" id="imageUpload" accept="image/*">
+            <label for="imageUpload">Upload an Image</label>
+        </div>
+        <div class="canvas-container">
+            <canvas id="stickerCanvas" width="400" height="400"></canvas>
+        </div>
+        <div class="controls">
+            <input type="text" id="textInput" placeholder="Add funny text here...">
+            <button id="addTextBtn">Add Text</button>
+            <button id="downloadBtn">Download Sticker</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
